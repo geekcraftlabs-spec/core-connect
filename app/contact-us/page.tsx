@@ -6,7 +6,6 @@ export default function ContactPage() {
     { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/anotheronedown__" },
     { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@geek.craft.labs" },
     { name: "X", img: "twitter.png", url: "https://x.com/another_1_downn" },
-    { name: "Facebook", img: "facebook.png", url: "https://www.facebook.com/share/1C1HaUgpsB/" },
     { name: "Phone", img: "phone.png", url: "tel:+27684858415" },
   ];
 
