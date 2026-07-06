@@ -3,11 +3,12 @@ import Image from "next/image";
 
 export default function Footer() {
   const socials = [
-    { name: "WhatsApp", img: "whatsapp.png", url: "https://wa.me/27750286134" },
-    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/anotheronedown__/" },
-    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@coreconnect__" },
-    { name: "X", img: "twitter.png", url: "https://x.com/coreconnect__" },
-    { name: "Phone", img: "phone.png", url: "tel:+27682852438" },
+    { name: "WhatsApp", img: "logo.png", url: "https://wa.me/27684858415" },
+    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/anotheronedown__" },
+    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@geek.craft.labs" },
+    { name: "X", img: "twitter.png", url: "https://x.com/another_1_downn" },
+    { name: "Facebook", img: "facebook.png", url: "https://www.facebook.com/share/1C1HaUgpsB/" },
+    { name: "Phone", img: "viber.png", url: "tel:+27684858415" },
   ];
 
   return (
@@ -32,13 +33,14 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-[#1a3c6e] mb-3">Contact</h4>
             <ul className="space-y-2 text-sm text-[#6b6b6b]">
-              <li><a href="tel:+27682852438" className="hover:text-[#1a3c6e] transition">+27 68 285 2438</a></li>
-              <li><a href="https://wa.me/27750286134" target="_blank" rel="noopener" className="hover:text-[#1a3c6e] transition">WhatsApp</a></li>
+              <li><a href="tel:+27684858415" className="hover:text-[#1a3c6e] transition">+27 68 485 8415</a></li>
+              <li><a href="https://wa.me/27684858415" target="_blank" rel="noopener" className="hover:text-[#1a3c6e] transition">WhatsApp</a></li>
+              <li><a href="mailto:info@geekcraftlabs.com" className="hover:text-[#1a3c6e] transition">info@geekcraftlabs.com</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-[#1a3c6e] mb-3">Follow Us</h4>
-            <div className="flex justify-center md:justify-start gap-4">
+            <div className="flex justify-center md:justify-start gap-4 flex-wrap">
               {socials.map((social) => (
                 <a
                   key={social.name}

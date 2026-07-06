@@ -2,11 +2,12 @@ import Image from "next/image";
 
 export default function ContactPage() {
   const socials = [
-    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@coreconnect__" },
-    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/anotheronedown__/" },
-    { name: "WhatsApp", img: "whatsapp.png", url: "https://wa.me/27750286134" },
-    { name: "X", img: "twitter.png", url: "https://x.com/coreconnect__" },
-    { name: "Phone", img: "phone.png", url: "tel:+27682852438" },
+    { name: "WhatsApp", img: "logo.png", url: "https://wa.me/27684858415" },
+    { name: "Instagram", img: "instagram.png", url: "https://www.instagram.com/anotheronedown__" },
+    { name: "TikTok", img: "tiktok.png", url: "https://www.tiktok.com/@geek.craft.labs" },
+    { name: "X", img: "twitter.png", url: "https://x.com/another_1_downn" },
+    { name: "Facebook", img: "facebook.png", url: "https://www.facebook.com/share/1C1HaUgpsB/" },
+    { name: "Phone", img: "viber.png", url: "tel:+27684858415" },
   ];
 
   return (
